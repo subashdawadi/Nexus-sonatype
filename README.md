@@ -32,7 +32,6 @@ Before you begin, ensure you have the following prerequisites:
 
     NEXUS_VERSION="3.59.0"  # Change to desired version
     wget "https://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz"
-    mkdir /opt/nexus
     tar -zxvf nexus-${NEXUS_VERSION}-unix.tar.gz 
     mv nexus-${NEXUS_VERSION} nexus
     rm "nexus-${NEXUS_VERSION}-unix.tar.gz"
